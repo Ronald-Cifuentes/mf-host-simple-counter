@@ -1,3 +1,7 @@
+# What is this app?
+
+this is an application host that hosts and connects a local component called Counter and a micro-application called nav that contains a Header component that reflects and resets the counter as if it were a shopping cart
+
 # How to use this app?
 
 ## Installation
@@ -83,10 +87,12 @@ export default Counter;
 
 import component Counter and Header in App.jsx, connect with a hook useState
 
+<img width="1173" alt="Screen Shot 2023-01-22 at 6 21 05 PM" src="https://user-images.githubusercontent.com/59535805/213946205-5a7ce909-9cdf-49a3-b69a-750bd47bd50a.png">
+
 ```jsx
 import React, {useCallback, useState} from 'react';
 import ReactDOM from 'react-dom';
-import Header from 'nav/Header';
+import Header from 'nav/Header'; // App running in port 3001
 import Counter from './Counter';
 import './index.scss';
 
