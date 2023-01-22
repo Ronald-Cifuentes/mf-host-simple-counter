@@ -2,6 +2,8 @@
 
 this is an application host that hosts and connects a local component called Counter and a micro-application called nav that contains a Header component that reflects and resets the counter as if it were a shopping cart
 
+<img width="1179" alt="image" src="https://user-images.githubusercontent.com/59535805/213947057-de3b8d26-4267-4669-b397-a2f57291d9fe.png">
+
 # How to use this app?
 
 ## Installation
