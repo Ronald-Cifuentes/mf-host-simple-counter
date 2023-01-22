@@ -16,7 +16,8 @@ const App = () => {
   }, []);
 
   return (
-    <div className="mt-10 text-3xl mx-auto max-w-6xl">
+    <div className="mt-10 text-3xl mx-auto max-w-6xl border-2 p-2">
+      <div>Name: mf-host-simple-counter</div>
       <Header count={count} onClear={setClear} />
       <Counter count={count} handleBtn={handleBtn} />
     </div>
