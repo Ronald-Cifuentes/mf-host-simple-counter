@@ -10,6 +10,16 @@ if you want to see this application running, please click on the following links
 
 - [Host](https://mf-host-simple-counter.vercel.app/)
 
+# testing
+
+https://user-images.githubusercontent.com/59535805/213995789-69c68e61-3471-437f-aeb1-8391e267728d.mp4
+
+the testing running in cypress with the following command:
+
+```bash
+$ ./node_modules/.bin/cypress open
+```
+
 # How to use this app?
 
 ## Installation
