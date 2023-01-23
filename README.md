@@ -4,6 +4,12 @@ this is an application host that hosts and connects a local component called Cou
 
 <img width="1179" alt="image" src="https://user-images.githubusercontent.com/59535805/213947057-de3b8d26-4267-4669-b397-a2f57291d9fe.png">
 
+# Deployed in vercel:
+
+if you want to see this application running, please click on the following links
+
+- [Host](https://mf-host-simple-counter.vercel.app/)
+
 # How to use this app?
 
 ## Installation
@@ -43,11 +49,11 @@ $ npx create-mf-app
 ```
 
 ```bash
-    ? Pick the name of your app: host
+    ? Pick the name of your app: mf-host-simple-counter
     ? Project Type: Application
     ? Port number: 3000
     ? Framework: react
-    ? Language: typescript
+    ? Language: javascript
     ? CSS: Tailwind
 ```
 

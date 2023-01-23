@@ -2,8 +2,8 @@
   "name": "mf-host-simple-counter",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack --mode production",
-    "build:dev": "webpack --mode development",
+    "build": "NODE_ENV=production webpack --mode production",
+    "build:dev": "NODE_ENV=local:production webpack --mode production",
     "build:start": "cd dist && PORT=3000 npx serve",
     "start": "webpack serve --open --mode development",
     "start:live": "webpack serve --open --mode development --live-reload --hot"
@@ -25,13 +25,14 @@
     "postcss": "^8.2.1",
     "postcss-loader": "^4.1.0",
     "style-loader": "^3.3.0",
+    "tailwindcss": "^2.0.2",
     "webpack": "^5.57.1",
     "webpack-cli": "^4.9.0",
-    "webpack-dev-server": "^4.3.1",
-    "tailwindcss": "^2.0.2"
+    "webpack-dev-server": "^4.3.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
+    "clean-webpack-plugin": "^4.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
